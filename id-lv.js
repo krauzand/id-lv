@@ -78,7 +78,7 @@ var IdeLve  = {
 	 * @param identificationCode
 	 * @returns {boolean}
 	 */
-  isValidIdentificationCode: function (identificationCode) {
+  	isValidIdentificationCode: function (identificationCode) {
 		return ! IdeLve.validateIdentificationCode(identificationCode).length > 0;
 	}
 
