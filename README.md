@@ -1,6 +1,6 @@
 # id-lv
-Latvijas personas koda kontrolcipara un datuma daļas pārbaudes.
-Latvian person identification code checksum and date validator.
+Latvijas personas koda kontrolcipara un datuma daļas pārbaudes Javascript valodā.
+Latvian person identification code checksum and date validator in Javascript.
 
 # Lietošanas piemēri / Examples of usage
 Iekļaujam id-lv.js faila saturu savā projektā un gatavs lietošanai.
