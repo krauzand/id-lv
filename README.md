@@ -11,7 +11,7 @@ if (IdeLve.isValidIdentificationCode("111111-11111")) {
   console.log("jā, būs pareizs kods");
   console.log("ok, valid code");
 }
-if (IdeLve.isValidIdentificationCode("111111-11111")) {
+if (IdeLve.isValidIdentificationCode("111112-11111")) {
   console.log("nē, nebūs pareizs kods");
   console.log("invalid code");
 }
