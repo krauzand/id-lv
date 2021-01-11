@@ -1,0 +1,32 @@
+<!doctype html>
+
+<html lang="lv">
+<head>
+	<script src="id-lv.js"></script>
+	<title>Personas koda validācija | Validate Latvian Identification Code</title>
+	<meta charset="UTF-8">
+</head>
+
+<body>
+<h1>Personas koda validācija | Validate Identification Code</h1>
+<script>
+	let validator = new IdeLve();
+	let codes = [
+		'111111-11111',
+		'111111-11111',
+		'111111-111112',
+		'111111-11112',
+		'211111-11111',
+		'111111p11111',
+		'11111-11111',
+	];
+
+	codes.forEach(function(value) {
+		let code = document.createElement('p');
+		code.innerHTML = `<strong>${value}</strong>: ${validator.isValidIdentificationCode(value) ? 'VALID': 'INVALID'}`;
+		document.body.append(code);
+	});
+
+</script>
+</body>
+</html>
